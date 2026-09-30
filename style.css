@@ -1,0 +1,183 @@
+/* CONFIGURAÇÕES GERAIS */
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+body {
+    font-family: Arial, sans-serif;
+    color: #222;
+}
+a { text-decoration: none; color:black; }
+a:visited { text-decoration: none; }
+a:hover { text-decoration: none; }
+a:focus { text-decoration: none; }
+a:hover, a:active { text-decoration: none; }
+
+
+/* MENU */
+.menu {
+    height: 70px;
+    width: 100vw;
+    background: #f1f1f1;
+    color: #333;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 20%;
+    position: fixed;
+}
+.menu a {
+    text-decoration: none;
+}
+.logo {
+    font-weight: bold;
+}
+.links {
+    display: flex;
+    gap: 25px;
+}
+
+
+/* DESTAQUE */
+.destaque {
+    height: 80vh;
+    background: rgb(245, 245, 245);
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 15%;
+    color: #47978e;
+}
+.conteudo-destaque h1 {
+    font-size: 65px;
+    margin-bottom: 10px;
+}
+.conteudo-destaque p {
+    margin-bottom: 35px;
+    font-size: 20px;
+}
+.botao, button {
+    background: #00a99d;
+    color: white;
+    border: none;
+    padding: 12px 20px;
+    text-decoration: none;
+    cursor: pointer;
+}
+.banner-img {
+    max-width: 700px;
+    /* background-color: red; */
+}
+
+
+/* SEÇÕES */
+.quem-somos {
+    padding: 120px 20%;
+    text-align: center;
+}
+.quem-somos h2 {
+    margin-bottom: 10px;
+}
+.subtitulo {
+    color: #666;
+    margin-bottom: 40px;
+}
+.secao {
+    padding: 120px 10%;
+    display: flex;
+    gap: 40px;
+}
+.fundo-escuro {
+    background: #333;
+    color: white;
+}
+.fundo-claro {
+    background: white;
+    color: #333;
+}
+.fundo-claro .cartao {
+    background: #ebe8e8;
+    color: #222;
+}
+.descricao {
+    width: 25%;
+}
+.descricao p {
+    margin-top: 15px;
+    line-height: 1.5;
+}
+.cartoes {
+    display: flex;
+    gap: 10px;
+    width: 75%;
+}
+.cartao {
+    background: white;
+    color: #222;
+    flex: 1;
+}
+.imagem-cartao {
+    height: 150px;
+    background: #aaa;
+}
+.cartao h3, .cartao p {
+    padding: 10px;
+}
+
+
+
+/* EQUIPE */
+.pessoas {
+    display: flex;
+    justify-content: space-around;
+    gap: 30px;
+}
+.pessoa {
+    width: 180px;
+}
+.foto {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    background: #aaa;
+    margin: 0 auto 15px;
+}
+.foto img {
+    max-height: 150%;
+    max-width:100%
+}
+.pessoa p {
+    color: #777;
+    margin-top: 5px;
+}
+
+
+
+/* RODAPÉ */
+footer {
+    background: #111;
+    color: white;
+    text-align: center;
+    padding: 30px;
+}
+
+
+/* CELULAR */
+@media (max-width: 700px) {
+    .links {
+        display: none;
+    }
+
+    .pessoas, .cartoes, .secao-escuro {
+        flex-direction: column;
+    }
+
+    .descricao, .cartoes {
+        width: 100%;
+    }
+
+    .pessoa {
+        margin: auto;
+    }
+
+}
