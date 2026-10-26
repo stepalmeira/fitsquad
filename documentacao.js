@@ -1,12 +1,10 @@
 'use strict';
 const grade = document.getElementById('documentos-grid');
-const campo = document.getElementById('pesquisa');
 const erro = document.getElementById('doc-erro');
 let documentos = [];
 function criar(tag, classe, texto) { const e=document.createElement(tag); if(classe)e.className=classe; if(texto)e.textContent=texto; return e; }
 function renderizar() {
-  const busca=campo.value.trim().toLocaleLowerCase('pt-BR');
-  const resultado=documentos.filter(d=>[d.categoria,d.titulo,d.descricao].join(' ').toLocaleLowerCase('pt-BR').includes(busca));
+  const resultado=documentos;
   grade.replaceChildren();
   if(!resultado.length){grade.append(criar('p','vazio','Nenhum documento encontrado.'));return;}
   resultado.forEach(d=>{
@@ -25,4 +23,3 @@ fetch('documentos.json',{cache:'no-store'})
  .then(r=>{if(!r.ok)throw new Error('HTTP '+r.status);return r.json();})
  .then(d=>{if(!Array.isArray(d))throw new Error('Catálogo inválido');documentos=d;renderizar();})
  .catch(()=>{grade.replaceChildren();erro.hidden=false;erro.textContent='Não foi possível carregar o catálogo. Abra o site via servidor HTTP (GitHub Pages ou Live Server) e confira documentos.json.';});
-campo.addEventListener('input',renderizar);
