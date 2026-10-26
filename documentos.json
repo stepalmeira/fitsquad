@@ -1,0 +1,10 @@
+[
+  {"categoria":"Objetivos SMART e Canvas","titulo":"Objetivos SMART e Canvas do projeto","descricao":"Metas SMART, justificativa e visão resumida do projeto.","arquivo":null},
+  {"categoria":"Escopo do Projeto","titulo":"Escopo completo","descricao":"Delimitação do projeto, entregas, exclusões e critérios de aceite.","arquivo":null},
+  {"categoria":"Termo de Abertura (TAP)","titulo":"Termo de Abertura do Projeto","descricao":"Justificativa, objetivos, escopo, prazo, partes interessadas e riscos iniciais.","arquivo":null},
+  {"categoria":"Cronograma","titulo":"Diagrama de Gantt","descricao":"Etapas e marcos do ciclo de três meses.","arquivo":null},
+  {"categoria":"Gestão de Recursos","titulo":"Plano de Gerenciamento de Recursos","descricao":"Matriz RACI, capacidade da equipe e riscos de recursos.","arquivo":"documentos/FitSquad_Plano_Gerenciamento_Recursos.pdf","tamanho":"87 KB"},
+  {"categoria":"Gestão da Qualidade","titulo":"Plano de Gerenciamento da Qualidade","descricao":"Objetivos de qualidade, critérios de aceite e validação do protótipo.","arquivo":null},
+  {"categoria":"Plano de Custos","titulo":"Plano de Gerenciamento de Custos","descricao":"Estrutura de controle, critérios de estimativa, reservas e monitoramento de custos.","arquivo":"documentos/FitSquad_Plano_Gerenciamento_Custos.pdf","tamanho":"100 KB"},
+  {"categoria":"Gestão das Comunicações","titulo":"Plano de Gerenciamento das Comunicações","descricao":"Públicos, canais, cadência e responsabilidades de comunicação.","arquivo":null}
+]
