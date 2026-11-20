@@ -35,7 +35,8 @@
     "categoria": "Gestão da Qualidade",
     "titulo": "Plano de Gerenciamento da Qualidade",
     "descricao": "Objetivos de qualidade, critérios de aceite e validação do protótipo.",
-    "arquivo": null
+    "arquivo": "documentos/FitSquad_Plano_de_Gerenciamento_da_Qualidade_PGQ.pdf",
+    "tamanho": "194 KB"
   },
   {
     "categoria": "Plano de Custos",
@@ -49,5 +50,12 @@
     "titulo": "Plano de Gerenciamento das Comunicações",
     "descricao": "Públicos, canais, cadência e responsabilidades de comunicação.",
     "arquivo": null
+  },
+  {
+    "categoria": "Gestão de Aquisições",
+    "titulo": "Matriz Make or Buy",
+    "descricao": "Análise das decisões de produzir internamente ou adquirir bens e serviços.",
+    "arquivo": "documentos/Gestão de Aquisições — Matriz Make or Buy.pdf",
+    "tamanho": "140 KB"
   }
 ]
