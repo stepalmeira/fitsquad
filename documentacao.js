@@ -45,7 +45,7 @@ function renderizar() {
     );
 
     const rodape = criar('div', 'doc-acoes');
-    if (d.arquivo && /^documentos\/[\wÀ-ÿ(). -]+\.pdf$/i.test(d.arquivo)) {
+    if (d.arquivo && /^documentos\/[\wÀ-ÿ(). —-]+\.pdf$/i.test(d.arquivo)) {
       const ver = criar('button', 'doc-botao primario', 'Visualizar');
       ver.type = 'button';
       ver.addEventListener('click', () => abrirPdf(d));
