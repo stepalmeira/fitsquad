@@ -22,7 +22,8 @@
     "categoria": "Cronograma",
     "titulo": "Diagrama de Gantt",
     "descricao": "Etapas e marcos do ciclo de três meses.",
-    "arquivo": null
+    "arquivo": "documentos/FitSquad_Plano_Gerenciamento_do_Tempo(gantt).pdf",
+    "tamanho": "212 KB"
   },
   {
     "categoria": "Gestão de Recursos",
@@ -65,5 +66,12 @@
     "descricao": "Identificação, análise, tratamento e monitoramento dos riscos do projeto.",
     "arquivo": "documentos/FitSquad_Gestao_de_Riscos.pdf",
     "tamanho": "468 KB"
+  },
+  {
+    "categoria": "Gestão de Stakeholders",
+    "titulo": "Plano de Gerenciamento de Stakeholders",
+    "descricao": "Identificação, análise e estratégias de engajamento das partes interessadas.",
+    "arquivo": "documentos/FitSquad_Gestao_de_Stakeholders_Revisado.pdf",
+    "tamanho": "74 KB"
   }
 ]
