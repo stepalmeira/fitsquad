@@ -49,7 +49,8 @@
     "categoria": "Gestão das Comunicações",
     "titulo": "Plano de Gerenciamento das Comunicações",
     "descricao": "Públicos, canais, cadência e responsabilidades de comunicação.",
-    "arquivo": null
+    "arquivo": "documentos/FitSquad_Plano_Gerenciamento_Comunicacoes_Justificado.pdf",
+    "tamanho": "86 KB"
   },
   {
     "categoria": "Gestão de Aquisições",
@@ -57,5 +58,12 @@
     "descricao": "Análise das decisões de produzir internamente ou adquirir bens e serviços.",
     "arquivo": "documentos/Gestão de Aquisições — Matriz Make or Buy.pdf",
     "tamanho": "140 KB"
+  },
+  {
+    "categoria": "Gestão de Riscos",
+    "titulo": "Plano de Gerenciamento de Riscos",
+    "descricao": "Identificação, análise, tratamento e monitoramento dos riscos do projeto.",
+    "arquivo": "documentos/FitSquad_Gestao_de_Riscos.pdf",
+    "tamanho": "468 KB"
   }
 ]
