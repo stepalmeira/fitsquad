@@ -3,25 +3,20 @@
     "categoria": "Objetivos SMART e Canvas",
     "titulo": "Objetivos SMART e Canvas do projeto",
     "descricao": "Metas SMART, justificativa e visão resumida do projeto.",
-    "arquivo": null
-  },
-  {
-    "categoria": "Escopo do Projeto",
-    "titulo": "Escopo completo",
-    "descricao": "Delimitação do projeto, entregas, exclusões e critérios de aceite.",
-    "arquivo": null
+    "arquivo": "documentos/FitSquad_Objetivos_SMART_Canvas.pdf",
+    "tamanho": "62 KB"
   },
   {
     "categoria": "Termo de Abertura (TAP)",
-    "titulo": "Termo de Abertura do Projeto",
+    "titulo": "Termo de Abertura do Projeto 2.0",
     "descricao": "Justificativa, objetivos, escopo, prazo, partes interessadas e riscos iniciais.",
-    "arquivo": "documentos/FitSquad_Termo_Abertura_Projeto.pdf",
-    "tamanho": "137 KB"
+    "arquivo": "documentos/FitSquad_TAP_2_0_Entrega_11-12-2026.pdf",
+    "tamanho": "95 KB"
   },
   {
-    "categoria": "Cronograma",
-    "titulo": "Diagrama de Gantt",
-    "descricao": "Etapas e marcos do ciclo de três meses.",
+    "categoria": "Gestão do Tempo",
+    "titulo": "Plano de Gerenciamento do Tempo",
+    "descricao": "Planejamento do cronograma, etapas, marcos e diagrama de Gantt do projeto.",
     "arquivo": "documentos/FitSquad_Plano_Gerenciamento_do_Tempo(gantt).pdf",
     "tamanho": "212 KB"
   },
