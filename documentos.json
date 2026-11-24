@@ -8,8 +8,15 @@
   },
   {
     "categoria": "Termo de Abertura (TAP)",
-    "titulo": "Termo de Abertura do Projeto 2.0",
+    "titulo": "Termo de Abertura do Projeto 1.0",
     "descricao": "Justificativa, objetivos, escopo, prazo, partes interessadas e riscos iniciais.",
+    "arquivo": "documentos/FitSquad_Termo_Abertura_Projeto.pdf",
+    "tamanho": "137 KB"
+  },
+  {
+    "categoria": "Termo de Abertura (TAP)",
+    "titulo": "Termo de Abertura do Projeto 2.0",
+    "descricao": "Versão atualizada do Termo de Abertura do Projeto.",
     "arquivo": "documentos/FitSquad_TAP_2_0_Entrega_11-12-2026.pdf",
     "tamanho": "95 KB"
   },
